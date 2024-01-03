@@ -48,3 +48,11 @@ p {
 }
 
 /** CODIGO AQUI **/
+
+@media (min-width: 768px) {
+    .con-sidebar {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 4rem;
+    }
+}   
