@@ -49,3 +49,12 @@ p {
 
 
 /** CODIGO AQUI **/
+
+.flex {
+    display: flex;
+    gap: 5rem;
+}
+
+.aside {
+    order: -1;
+}
