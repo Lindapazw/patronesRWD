@@ -49,3 +49,17 @@ p {
 
 
 /** CODIGO AQUI **/
+
+.grid {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    gap: 5rem;
+}
+
+.primero {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.segundo {
+    grid-column: 2 / 3;
+}
